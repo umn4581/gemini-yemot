@@ -7,7 +7,7 @@ import uuid
 app = Flask(__name__)
 
 # ====================== שנה כאן את ה-API KEY ======================
-genai.configure(api_key="הדבק_כאן_את_API_KEY_של_GEMINI")
+genai.configure(api_key=AIzaSyCvWGtgzmTdPU90m1R2kcyTDqCS-kWn4Jg)
 # =================================================================
 
 @app.route('/gemini', methods=['POST'])
